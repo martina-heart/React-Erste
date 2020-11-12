@@ -1,8 +1,15 @@
 import React from "react";
 
+import Goodbye from "./GoodBye.component";
+
 class HelloWorld extends React.Component {
   render() {
-    return <div>Hello World</div>;
+    return (
+      <div>
+        Smart {this.props.phone}
+        <Goodbye world={this.props.world} />
+      </div>
+    );
   }
 }
 

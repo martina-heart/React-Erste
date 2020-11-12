@@ -1,7 +1,7 @@
 import React from "react";
 
-function GoodBye() {
-  return <div>Goodbye Kristina</div>;
+function GoodBye(props) {
+  return <div>{props.world}</div>;
 }
 
 export default GoodBye;
