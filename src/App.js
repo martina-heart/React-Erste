@@ -1,12 +1,20 @@
+// import GoodBye from "./GoodBye.component";
 import HelloWorld from "./HelloWorld.component";
 
 function App() {
-  let helloWorld = "Hello Martina";
+  const phone = "phone";
+  const iphone = "Iphone";
+  const samsung = "Samsung";
+  const a = [1, 2, 3];
+  const o = {
+    a: 1,
+    b: 2,
+    c: 3,
+  };
 
   return (
     <>
-      <div>{helloWorld}</div>
-      <HelloWorld phone="Phone" />
+      <HelloWorld phone={phone} iphone={iphone} samsung={samsung} a={a} o={o} />
     </>
   );
 }
