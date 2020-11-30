@@ -16,8 +16,12 @@ function App() {
   function getHuawei(huawei) {
     console.log(huawei + " phone ");
   }
+  function getNokia(nokia) {
+    console.log(nokia + phone);
+  }
 
   return (
+    //Mounting
     <>
       <HelloWorld
         phone={phone}
@@ -26,6 +30,7 @@ function App() {
         a={a}
         o={o}
         getHuawei={getHuawei}
+        getNokia={getNokia}
       />
     </>
   );
