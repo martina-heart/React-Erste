@@ -25,6 +25,10 @@ class HelloWorld extends React.Component {
     console.log("componentDidUpdate called");
   }
 
+  componentWillUnmount() {
+    console.log("ComponentWillUnmount called");
+  }
+
   onClickHandler() {
     this.props.getHuawei(this.state.huawei);
   }
